@@ -1,0 +1,6 @@
+<view class="intro">
+ <form bindsubmit='paymoney'>
+<button class="loginon" type="warn" open-type="getUserInfo"
+  bindgetuserinfo="doLogin">微信授权并支付0.01元</button>
+   </form>
+</view>
